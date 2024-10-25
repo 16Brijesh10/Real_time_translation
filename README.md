@@ -51,3 +51,10 @@ The models for translation are built using LSTM (Long Short-Term Memory) network
 - Enter text in the provided input field.
 - Select the desired target language from the dropdown menu.
 -  Click the "Translate" button to see the translated text.
+
+### Error Handling
+#### The application includes error handling for:
+
+- Invalid input (e.g., starting with a vowel, incorrect word lengths).
+- Suggestions for unavailable words.
+- If an error occurs, an appropriate message box will display the error message, and if multiple invalid words are entered, a warning box will show the list of wrong words.
