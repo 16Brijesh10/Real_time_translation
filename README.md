@@ -46,3 +46,8 @@ The models for translation are built using LSTM (Long Short-Term Memory) network
 
 ### Run the application using Python:
 - **python translator.py**
+
+### Usage
+- Enter text in the provided input field.
+- Select the desired target language from the dropdown menu.
+-  Click the "Translate" button to see the translated text.
