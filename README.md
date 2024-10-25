@@ -34,8 +34,8 @@ keras==2.12.0
 ### Dataset
 The application uses the following CSV datasets for training and translation:
 
--english_converted.csv: Contains English sentences.
--hindi_converted.csv: Contains corresponding Hindi translations.
--french_converted.csv: Contains French translations.
--tamil_converted.csv: Contains Tamil translations.
+- **english_converted.csv** : Contains English sentences.
+- **hindi_converted.csv** : Contains corresponding Hindi translations.
+- **french_converted.csv** : Contains French translations.
+- **tamil_converted.csv** : Contains Tamil translations.
 Make sure these datasets are formatted correctly, with a column named text for sentences.
