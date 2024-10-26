@@ -39,6 +39,7 @@ The application uses the following CSV datasets for training and translation:
 - **french_converted.csv** : Contains French translations.
 - **tamil_converted.csv** : Contains Tamil translations.
 Make sure these datasets are formatted correctly, with a column named text for sentences.
+- For me tamil doesn't work properly so i converted the english dataset to tamil using google translator than used that data to get accuracy
 
 ## Model Training
 The models for translation are built using LSTM (Long Short-Term Memory) networks. The training can be done by uncommenting the line in the code that calls the - ----- - 
